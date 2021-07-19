@@ -28,6 +28,14 @@ func Load(path string, opt ...Option) (v1.Image, error) {
 	return LoadTag(path, "")
 }
 
+// Loads reads the tarball at path as a v1.Image list.
+func Loads(path string, src string, opt ...Option) (image v1.Image, err error) {
+	if image, err = LoadTag(path, src); err != nil {
+		return
+	}
+	return
+}
+
 // LoadTag reads a tag from the tarball at path as a v1.Image.
 // If tag is "", will attempt to read the tarball as a single image.
 func LoadTag(path, tag string, opt ...Option) (v1.Image, error) {

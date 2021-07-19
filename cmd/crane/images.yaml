@@ -1,0 +1,258 @@
+docker.io:
+  library/alpine:
+    - 3.14.0
+    - 3.14
+    - 3
+    - 3.13.5
+    - 3.13
+    - 3.12.7
+    - 3.12
+    - 3.11.11
+    - 3.11
+  library/bash:
+    - 5.1.8
+    - 5.1
+    - 5
+  library/buildpack-deps:
+    - curl
+    - scm
+    - buster
+    - stable
+  library/busybox:
+    - stable-uclibc
+    - uclibc
+    - stable-glibc
+    - glibc
+    - stable-musl
+    - musl
+    - stable
+  library/centos:
+    - centos8
+    - 8
+    - centos8.3.2011
+    - 8.3.2011
+    - centos7
+    - 7
+    - centos7.9.2009
+    - 7.9.2009
+  library/debian:
+    - buster
+    - 10.10
+    - 10
+    - buster-backports
+    - buster-slim
+  library/docker:
+    - 20.10.7-dind
+    - 20.10-dind
+    - 20-dind
+    - dind
+    - 20.10.7-dind-rootless
+    - 20.10-dind-rootless
+    - 20-dind-rootless
+    - dind-rootless
+  library/elasticsearch:
+    - 7.13.3
+    - 6.8.17
+  library/golang:
+    - 1.16.6-buster
+    - 1.16-buster
+    - 1-buster
+    - buster
+    - 1.16.6
+    - 1.16
+    - 1
+    - 1.16.6-alpine3.14
+    - 1.16-alpine3.14
+    - 1-alpine3.14
+    - alpine3.14
+    - 1.16.6-alpine
+    - 1.16-alpine
+    - 1-alpine
+    - alpine
+    - 1.15.14-alpine3.14
+    - 1.15-alpine3.14
+    - 1.15.14-alpine
+    - 1.15-alpine
+    - 1.15.14-buster
+    - 1.15-buster
+    - 1.15.14
+    - 1.15
+  library/gradle:
+    - 7.1.1-jdk8
+    - 7.1-jdk8
+    - 7-jdk8
+    - jdk8
+  library/haproxy:
+    - 2.4.2-alpine
+    - 2.4-alpine
+    - lts-alpine
+    - alpine
+  library/httpd:
+    - 2.4.48
+    - 2.4
+    - 2
+    - 2.4.48-buster
+    - 2.4-buster
+    - 2-buster
+    - buster
+    - 2.4.48-alpine
+    - 2.4-alpine
+    - 2-alpine
+    - alpine
+    - 2.4.48-alpine3.14
+    - 2.4-alpine3.14
+    - 2-alpine3.14
+    - alpine3.14
+  library/influxdb:
+    - 1.7
+    - 1.7.11
+    - 1.7-alpine
+    - 1.7.11-alpine
+  library/kong:
+    - 2.5.0-alpine
+    - 2.5.0
+    - 2.5
+    - alpine
+  library/maven:
+    - 3.8.1-jdk-8
+    - 3.8-jdk-8
+    - 3-jdk-8
+  library/mongo:
+    - 4.4.6-bionic
+    - 4.4-bionic
+    - 4-bionic
+  library/mysql:
+    - 8.0.25
+    - 8.0
+    - 8
+    - 5.7.34
+    - 5.7
+    - 5
+  library/nginx:
+    - 1.21.1
+    - mainline
+    - 1
+    - 1.21
+    - 1.21.1-alpine
+    - mainline-alpine
+    - 1-alpine
+    - 1.21-alpine
+    - alpine
+    - 1.20.1
+    - stable
+    - 1.20
+    - 1.20.1-alpine
+    - stable-alpine
+    - 1.20-alpine
+  library/node:
+    - 16-alpine3.14
+    - 16.5-alpine3.14
+    - 16.5.0-alpine3.14
+    - alpine3.14
+    - 14-alpine3.14
+    - 14.17-alpine3.14
+    - 14.17.3-alpine3.14
+    - lts-alpine3.14
+    - 12-alpine3.14
+    - 12.22-alpine3.14
+    - 12.22.3-alpine3.14
+  library/openjdk:
+    - 11.0.11-9-jdk-buster
+    - 11.0.11-9-buster
+    - 11.0.11-jdk-buster
+    - 11.0.11-buster
+    - 11.0-jdk-buster
+    - 11.0-buster
+    - 11-jdk-buster
+    - 11-buster
+    - 11.0.11-9-jdk
+    - 11.0.11-9
+    - 11.0.11-jdk
+    - 11.0.11
+    - 11.0-jdk
+    - 11.0
+    - 11-jdk
+    - 11
+  library/php:
+    - 8.0.8-buster
+    - 8.0-buster
+    - 8-buster
+    - buster
+    - 7.4.21-buster
+    - 7.4-buster
+    - 7-buster
+  library/postgres:
+    - 13.3-buster
+    - 13-buster
+    - buster
+    - 13.3-alpine
+    - 13-alpine
+    - alpine
+    - 13.3-alpine3.14
+    - 13-alpine3.14
+    - alpine3.14
+  library/python:
+    - 3.8.11-alpine3.14
+    - 3.8-alpine3.14
+    - 3.8.11-alpine
+    - 3.8-alpine
+  library/rabbitmq:
+    - 3.8.19-alpine
+    - 3.8-alpine
+    - 3-alpine
+    - alpine
+  library/redis:
+    - 6.2.4
+    - 6.2
+    - 6
+    - 6.2.4-buster
+    - 6.2-buster
+    - 6-buster
+    - buster
+    - 6.2.4-alpine
+    - 6.2-alpine
+    - 6-alpine
+    - alpine
+    - 6.2.4-alpine3.14
+    - 6.2-alpine3.14
+    - 6-alpine3.14
+    - alpine3.14
+    - 6.0.14
+    - 6.0
+    - 6.0.14-buster
+    - 6.0-buster
+    - 6.0.14-alpine
+    - 6.0-alpine
+    - 6.0.14-alpine3.14
+    - 6.0-alpine3.14
+    - 5.0.12
+    - 5.0
+    - 5
+    - 5.0.12-buster
+    - 5.0-buster
+    - 5-buster
+    - 5.0.12-alpine
+    - 5.0-alpine
+    - 5-alpine
+    - 5.0.12-alpine3.14
+    - 5.0-alpine3.14
+    - 5-alpine3.14
+  library/traefik:
+    - v2.4.11
+    - 2.4.11
+    - v2.4
+    - 2.4
+  library/ubuntu:
+    - bionic
+    - trusty
+    - xenial
+  library/wordpress:
+    - 5.7.2-apache
+    - 5.7-apache
+    - 5-apache
+    - apache
+  library/zookeeper:
+    - 3.5.9
+    - 3.5
+    - 3.6.3
+    - 3.6
